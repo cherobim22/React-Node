@@ -197,7 +197,7 @@ function Produtos({title}){
                 <Form.Select >
                     <option value="">Selecione</option>
                     <option value="Perfil">Perfil</option>
-                    <option value="Modulo">Modulo</option>
+                    <option value="Modulo">Módulo</option>
                     <option value="Inversor">Inversor</option>
                     <option value="Cabos">Cabos</option>
                     <option value="Conectores e Baterias">Conectores e Baterias</option>
@@ -243,7 +243,7 @@ function Produtos({title}){
                         {(() => {
                             switch (produto.status) {
                             case 1:   return    <>
-                                                    <OverlayTrigger placement="top" overlay = {<Tooltip id={`tooltip-top`}>Vizualizar Produto</Tooltip>}>
+                                                    <OverlayTrigger placement="top" overlay = {<Tooltip id={`tooltip-top`}>Visualizar Produto</Tooltip>}>
                                                         <Button variant="secondary" onClick={() => handleShow(produto.id, true)}>
                                                             <FiEye/>
                                                         </Button>
@@ -262,7 +262,7 @@ function Produtos({title}){
                                                 </>;
                             case 0: return <>
                                            
-                                            <OverlayTrigger placement="top" overlay = {<Tooltip id={`tooltip-top`}>Vizualizar Produto</Tooltip>}>
+                                            <OverlayTrigger placement="top" overlay = {<Tooltip id={`tooltip-top`}>Visualizar Produto</Tooltip>}>
                                                 <Button variant="secondary" onClick={() => handleShow(produto.id, false)}>
                                                     <FiEye/>
                                                 </Button>
