@@ -1,0 +1,69 @@
+.main-produtos{
+    width: 100%;
+    padding: 3% 10% 5% 10%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.main-produtos table{
+    width: 100%;
+}
+
+.main-produtos table td, .main-produtos table th{
+    padding: 10px;
+}
+.actions{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.filters{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.filters button{
+    margin-top: 26px;
+    background-color: #00a234;
+}
+
+.table-produtos tr th:nth-child(7){
+    text-align: center;
+}
+
+.table-produtos thead th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #00a234;
+    color: white;
+  }
+
+.table-produtos tbody tr{
+    border-bottom: 1px solid #d8d6d6 !important ;
+}
+
+.table-produtos tbody tr:hover{
+    border-bottom: 1px solid #5e5e5e !important ;
+}
+
+
+.rs-picker-toggle.rs-btn.rs-btn-default {
+    border: 1px solid #70707059;
+    height: 38px;
+    border-radius: 5px;
+}
+span.rs-picker-toggle-placeholder {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+#FormGridSegmento option:nth-child(1), #FormGridGrupo option:nth-child(1){
+    color:#8e8e93
+}

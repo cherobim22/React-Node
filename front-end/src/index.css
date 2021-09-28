@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:400,500,700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background: #f0f0f5;
+}
+
+button{
+    cursor: pointer;
+}
+
+.btn-close{
+    filter: invert(1) grayscale(100%) brightness(200%);
+}
+
+.modal-header{
+    background-color: #00a234;
+    color: white;
+}
+.btn-cubagem{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
