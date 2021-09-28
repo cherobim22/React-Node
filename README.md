@@ -8,7 +8,7 @@ Inicializando o back-end
 ```sh
 - cd back-end
 - npm install
-- npx knex migrate:latest
+- npx knex migrate:latest (apenas se não tiver o arquivo db.sqlite3)
 - npm run start
 ```
 
