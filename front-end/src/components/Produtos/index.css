@@ -67,3 +67,8 @@ span.rs-picker-toggle-placeholder {
 #FormGridSegmento option:nth-child(1), #FormGridGrupo option:nth-child(1){
     color:#8e8e93
 }
+
+.date{
+    display: flex;
+    flex-direction: column;
+}

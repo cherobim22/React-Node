@@ -204,7 +204,7 @@ function Produtos({title}){
                 </Form.Select>
             </Form.Group>
 
-            <Form.Group as={Col} className="col-2" onChange={handleFilter}>
+            <Form.Group as={Col} className="col-2 date" onChange={handleFilter}>
                 <Form.Label>Data</Form.Label>
                 <DateRangePicker id="FormGridData" placeholder="Selecione uma data" onChange={handleFilter} />
             </Form.Group>
