@@ -57,7 +57,6 @@ function Produtos({title}){
             default:
               return;
           }
-    
        
     }
 
@@ -103,8 +102,6 @@ function Produtos({title}){
             setTableTextStatus(text)
         }
       }
-
-
 
         if(e[0]){
             
@@ -312,12 +309,8 @@ function Produtos({title}){
                 <FormEdit editId={id} getProducts={getProducts} tableStatus={tableStatus} handleEditClose={handleEditClose}  handleAlert={handleAlert}/>
             </Modal.Body>
         </Modal>
-
-
-     
+             
       </div>
-
-
 
     )
 }

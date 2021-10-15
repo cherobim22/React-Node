@@ -3,7 +3,6 @@ import { Form, Row, Col, Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import api from '../../services/api';
 
-
 export default function FormEdit({editId, tableStatus, getProducts, handleEditClose, handleAlert}){
     console.log(editId)
     const[nome, setNome] = useState('');
@@ -20,7 +19,6 @@ export default function FormEdit({editId, tableStatus, getProducts, handleEditCl
     const[inativo, setInativo] = useState(false);
     const [validated, setValidated] = useState(false);
 
-
     useEffect(()=>{
         setProducts(editId);
     }, [editId])
@@ -34,7 +32,6 @@ export default function FormEdit({editId, tableStatus, getProducts, handleEditCl
             let profundidade = response.data.profundidade
             let peso_liquido = response.data.peso_liquido
             let peso_bruto = response.data.peso_bruto
-
 
             setNome(response.data.nome)
             setLargura(largura.replace(',', '.'))
