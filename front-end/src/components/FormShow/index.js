@@ -231,7 +231,6 @@ export default function FormShow({editId, tableStatus, getProducts, handleEditCl
             }
         })()}
        
-
         </>
     )
 }

@@ -3,7 +3,6 @@ import { Form, Row, Col, Button} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import api from '../../services/api';
 
-
 export default function FormCreate({getProducts, handleAlert, handleCreateClose, tableStatus}){
 
     const[nome, setNome] = useState('');
@@ -140,8 +139,6 @@ export default function FormCreate({getProducts, handleAlert, handleCreateClose,
             <Button type="submit">
                 Enviar
             </Button>
-        </Form>
-
-        
+        </Form>  
     )
 }
