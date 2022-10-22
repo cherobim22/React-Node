@@ -215,7 +215,7 @@ function Produtos({title}){
                     <th>Id</th>
                     <th>Status</th>
                     <th>Nome</th>
-                    <th>Data Criação</th>
+                    <th>Data de Criação</th>
                     <th>Grupo</th>
                     <th>Segmento</th>
                     <th>Ações</th>
