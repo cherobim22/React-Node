@@ -110,7 +110,7 @@ export default function FormEdit({editId, tableStatus, getProducts, handleEditCl
             <Row className="mb-3 col-12">
                 <Form.Group as={Col} controlId="formGridPesoLiquido">
                 <Form.Label>Peso Líquido</Form.Label>
-                <Form.Control type="number" placeholder="Digite o peso liquido" value={peso_liquido} onChange={e => setPesoLiquido(e.target.value)} required />
+                <Form.Control type="number" placeholder="Digite o peso líquido" value={peso_liquido} onChange={e => setPesoLiquido(e.target.value)} required />
                 </Form.Group>
 
                 <Form.Group as={Col} controlId="formGridPesoBruto">

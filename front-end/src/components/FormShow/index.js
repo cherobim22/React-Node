@@ -113,7 +113,7 @@ export default function FormShow({editId, tableStatus, getProducts, handleEditCl
 
             <Row className="mb-3 col-12">
                 <Form.Group as={Col} controlId="formGridPesoLiquido">
-                <Form.Label>Peso Liquido <small>*kg</small></Form.Label>
+                <Form.Label>Peso Líquido <small>*kg</small></Form.Label>
                 <Form.Control type="number" placeholder="Digite o peso líquido" value={peso_liquido} onChange={e => setPesoLiquido(e.target.value)} disabled/>
                 </Form.Group>
 
